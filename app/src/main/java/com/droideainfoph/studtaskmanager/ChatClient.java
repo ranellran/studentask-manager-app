@@ -66,12 +66,12 @@ public class ChatClient {
         }
     }
 
-    private static class GetMessagesTask extends AsyncTask<String, Void, String[]> {
-        private final GetMessagesCallback callback;
 
-        public GetMessagesTask(GetMessagesCallback callback) {
-            this.callback = callback;
-        }
+
+
+
+
+    
 
         @Override
         protected String[] doInBackground(String... params) {
@@ -110,13 +110,16 @@ public class ChatClient {
             return null;
         }
 
-        @Override
-        protected void onPostExecute(String[] result) {
-            if (result != null) {
-                callback.onGetMessagesResult(result[0], result[1]);
-            } else {
-                callback.onGetMessagesResult("", "");
-            }
-        }
+
+
+
+
+
+
+
+
+
+
+        
     }
 }
