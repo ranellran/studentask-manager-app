@@ -1,0 +1,17 @@
+<!-- item_shadow.xml -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffffff" /> <!-- Background color of the item -->
+    <corners android:radius="8dp" /> <!-- Adjust the radius for rounded corners -->
+    <padding
+        android:left="4dp"
+        android:top="4dp"
+        android:right="4dp"
+        android:bottom="4dp" /> <!-- Adjust the padding to control the shadow effect -->
+    <item>
+        <shape>
+            <corners android:radius="8dp" /> <!-- Adjust the radius to control the shadow spread -->
+            <solid android:color="#80000000" /> <!-- Color of the shadow -->
+        </shape>
+    </item>
+</shape>

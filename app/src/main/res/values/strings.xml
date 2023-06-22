@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">StudTask Manager</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_school_id">Enter School ID</string>
+    <string name="proceed_as_a_teacher">Proceed as a Teacher</string>
+    <string name="proceed_as_a_students">Proceed as a Students</string>
+    <string name="no_account_yet_click_here_to_register">No account yet? Click here to Register</string>
+    <string name="enter_12_digit_lrn">Enter 12 Digit LRN</string>
+    <string name="i_have_already_an_account">I have already an account</string>
+    <string name="enter_4_digit_code">Enter 4 Digit Code</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_lastname">Enter Lastname</string>
+    <string name="enter_firstname">Enter Firstname</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="select_your_birthday">Select your Birthday</string>
+    <string name="generate_teacher_code">Generate Teacher Code</string>
+    <string name="your_code_is">Your Code is:</string>
+    <string name="enter_username1">Enter Username</string>
+    <string name="select_grade_prompt">Select your Grade Level</string>
+    <string name="select_sex_prompt">Select your sex</string>
+    <string name="take_screenshot">Take Screenshot of this Information</string>
+    <string name="back_to_login">Back to Log In</string>
+
+
+    <string name="db_url_mysql">jdbc:mysql://192.168.43.79:3300/studtask_db</string>
+    <string name="db_load_mysql">com.mysql.jdbc.Driver</string>
+    <string name="db_username">studtask_app</string>
+    <string name="db_password">studtask123</string>
+
+    <string-array name="grade_levels">
+        <item>Grade 7</item>
+        <item>Grade 8</item>
+        <item>Grade 9</item>
+        <item>Grade 10</item>
+        <item>Grade 11</item>
+        <item>Grade 12</item>
+    </string-array>
+
+    <string-array name="salutation_options">
+        <item>Mr.</item>
+        <item>Ms.</item>
+        <item>Mrs.</item>
+    </string-array>
+
+    <string-array name="semester">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+
+    <string-array name="semester_selector_items">
+        <item>None</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="quarter_array">
+        <item>1st Quarter</item>
+        <item>2nd Quarter</item>
+        <item>3rd Quarter</item>
+        <item>4th Quarter</item>
+    </string-array>
+
+    <string-array name="grade_level_options">
+        <item>Grade 7</item>
+        <item>Grade 8</item>
+        <item>Grade 9</item>
+        <item>Grade 10</item>
+        <item>Grade 11</item>
+        <item>Grade 12</item>
+    </string-array>
+
+
+    <string-array name="sex_selection">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_t_dashboard">Dashboard</string>
+    <string name="menu_s_dashboard">Dashboard</string>
+    <string name="menu_student_list">Student Lists</string>
+    <string name="menu_studentList">Student List</string>
+    <string name="request_access">Request Access</string>
+</resources>

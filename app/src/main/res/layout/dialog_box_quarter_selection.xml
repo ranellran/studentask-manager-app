@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select Quarter"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <RadioGroup
+        android:id="@+id/quarterRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/firstQuarterRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAlignment="textStart"
+            android:text="1st Quarter" />
+
+        <RadioButton
+            android:id="@+id/secondQuarterRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAlignment="textStart"
+            android:text="2nd Quarter" />
+
+        <RadioButton
+            android:id="@+id/thirdQuarterRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAlignment="textStart"
+            android:text="3rd Quarter" />
+
+        <RadioButton
+            android:id="@+id/fourthQuarterRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAlignment="textStart"
+            android:text="4th Quarter" />
+    </RadioGroup>
+
+</LinearLayout>

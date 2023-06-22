@@ -1,0 +1,43 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_s_dashboard">
+
+    <fragment
+        android:id="@+id/nav_s_dashboard"
+        android:name="com.droideainfoph.studtaskmanager.ui.s_dashboard.SDashboardFragment"
+        android:label="@string/menu_s_dashboard"
+        tools:layout="@layout/fragment_s_dashboard">
+        <action
+            android:id="@+id/action_nav_s_dashboard_to_nav_t_dashboard"
+            app:destination="@id/nav_t_dashboard"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_t_dashboard"
+        android:name="com.droideainfoph.studtaskmanager.ui.t_dashboard.TDashboardFragment"
+        android:label="@string/menu_t_dashboard"
+        tools:layout="@layout/fragment_t_dashboard">
+        <action
+            android:id="@+id/action_nav_t_dashboard_to_nav_s_dashboard"
+            app:destination="@id/nav_s_dashboard"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.droideainfoph.studtaskmanager.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_student_list"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <action
+        android:id="@+id/action_global_nav_s_dashboard"
+        app:destination="@id/nav_s_dashboard"
+        app:popUpTo="@id/mobile_navigation"
+        app:popUpToInclusive="true" />
+
+</navigation>
